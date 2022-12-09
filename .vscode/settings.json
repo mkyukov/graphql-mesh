@@ -14,14 +14,19 @@
   "prettier.printWidth": 110,
   "files.exclude": {
     "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
     "**/.DS_Store": true,
-    "**/node_modules": false,
-    "**/dist": false,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/dist": true,
     "test-lib": true,
     "lib": true,
     "coverage": true,
     "npm": true,
     ".bob": true
   },
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "hide-files.files": []
 }
